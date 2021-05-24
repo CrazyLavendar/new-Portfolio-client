@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import { Switch, Route } from "react-router-dom";
-import { LoadingOutlined } from "@ant-design/icons";
+import { LoadingOutlined, DownOutlined } from "@ant-design/icons";
 import "./App.scss";
 
 import { getExperience } from "./functions/experience";
@@ -96,10 +96,7 @@ const App = () => {
           className="col-md-12 mx-auto text-center language"
         >
           <span key="ScrollDown" className="m-2">
-            <i
-              className="fas fa-angle-double-down"
-              style={{ fontSize: "175%" }}
-            ></i>
+            <DownOutlined style={{ fontSize: "200%" }} />
           </span>
         </div>
         <About
