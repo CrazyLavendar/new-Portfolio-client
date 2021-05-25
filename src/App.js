@@ -24,7 +24,7 @@ const App = () => {
   const sharedDataJson = {
     basic_info: {
       name: "Vimal Kumar",
-      titles: ["XR - Engineer", "FUll Stack Developer", "DSA Enthusiast","Master's @ NIT W"],
+      titles: ["XR - Engineer", "FUll Stack Developer", "Computer Science Enthusiast","Master's @ NIT W"],
       social: [
         {
           name: "github",
@@ -47,7 +47,7 @@ const App = () => {
       description:
         "👋 I'm Vimal Kumar. I am a fitness Enthusiast , Chess player and Software Developer.",
       description2: "> I am efficient and knowledgable in Data Structures & Algorithms and I love competetive coding.",
-      description3: "> I have hands-on experience in XR domain , Full Stack Development & Cloud deployment. ",
+      description3: "> I have hands-on experience in XR domain , Full Stack Development & Cloud deployments. ",
       description4: "> I am extending my skills in Machine Learning.",
    
       section_name: {
