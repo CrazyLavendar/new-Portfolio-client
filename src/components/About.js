@@ -28,6 +28,9 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var about2 = this.props.resumeBasicInfo.description2;
+      var about3 = this.props.resumeBasicInfo.description3;
+      var about4 = this.props.resumeBasicInfo.description4;
     }
 
     return (
@@ -96,7 +99,7 @@ class About extends Component {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "110%",
+                      fontSize: "125%",
                       lineHeight: "200%",
                     }}
                   >
@@ -105,6 +108,15 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <br />
+                    <br />
+                    {about2}
+                    <br />
+                    <br />
+                    {about3}
+                    <br />
+                    <br />
+                    {about4}
                   </div>
                 </div>
               </div>

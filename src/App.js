@@ -45,7 +45,11 @@ const App = () => {
     basic_info: {
       description_header: "Hi",
       description:
-        "👋 I'm Vimal Kumar. I am a fitness Enthusiast , Chess player and Software Developer. I have hands-on experience in XR domain , Full Stack Development & Cloud deployment. I am efficient and knowledgable in Data Structures & Algorithms. I love competetive coding.",
+        "👋 I'm Vimal Kumar. I am a fitness Enthusiast , Chess player and Software Developer.",
+      description2: "> I am efficient and knowledgable in Data Structures & Algorithms and I love competetive coding.",
+      description3: "> I have hands-on experience in XR domain , Full Stack Development & Cloud deployment. ",
+      description4: "> I am extending my skills in Machine Learning.",
+   
       section_name: {
         about: "About me",
         projects: "Projects",
@@ -120,14 +124,14 @@ const App = () => {
               position: "absolute",
               bottom: "5px",
               right: "5px",
-              margin: "5px",
-              padding: "0px",
+              margin: "2px",
+              padding: "2px",
             }}
             href="https://www.linkedin.com/in/jayamvimal/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-linkedin" style={{ fontSize: "200%" }}></i>
+            <i className="fab fa-linkedin" style={{ fontSize: "185%" }}></i>
           </a>
         </span>{" "}
       </div>
