@@ -24,7 +24,7 @@ const App = () => {
   const sharedDataJson = {
     basic_info: {
       name: "Vimal Kumar",
-      titles: ["XR - Engineer", "FUll Stack Developer", "Master's @ NIT W"],
+      titles: ["XR - Engineer", "FUll Stack Developer", "DSA Enthusiast","Master's @ NIT W"],
       social: [
         {
           name: "github",
@@ -99,7 +99,7 @@ const App = () => {
           onClick={scrollBelow}
           className="col-md-12 mx-auto text-center language"
         >
-          <span key="ScrollDown" className="m-2">
+          <span key="ScrollDown" className="mb-0">
             <DownOutlined style={{ fontSize: "200%" }} />
           </span>
         </div>
