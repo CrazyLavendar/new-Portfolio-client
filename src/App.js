@@ -45,9 +45,9 @@ const App = () => {
     basic_info: {
       description_header: "Hi",
       description:
-        "👋 I'm Vimal Kumar. I am a fitness Enthusiast , Chess player and Computer Science Enthusiast.",
+        "👋 I'm Vimal Kumar. I am a Fitness Junkie , Chess Player and Computer Science Enthusiast.",
       description2: "> I am efficient and knowledgable in Data Structures & Algorithms and I love competetive coding.",
-      description3: "> I have hands-on experience in XR domain , Full Stack Development & Cloud deployments. ",
+      description3: "> I have hands-on experience in XR domain , Full Stack Development & DevOps basics.",
       description4: "> I am extending my skills in Machine Learning.",
    
       section_name: {
